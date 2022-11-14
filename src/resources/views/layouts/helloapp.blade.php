@@ -7,6 +7,8 @@
             margin: -20px 0px -30px 0px; letter-spacing: -4px; }
         ul { font-size: 12px; }
         hr { margin: 25px 100px; bordeer-top: 1px dashed #ddd; }
+        th { background-color: #999; color: fff; padding: 5px 10px; }
+        td { border: solid 1px #aaa; color: #999; padding: 5px 10px; }
         .menutitle { margin: 25px 100px; border-top: 1px dashed #ddd }
         .content { margin: 10px }
         .footer { text-align: right; font-size: 10px; margin: 10px;
