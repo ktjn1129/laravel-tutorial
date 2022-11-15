@@ -36,3 +36,8 @@ Route::post('hello/del', 'HelloController@remove');
 
 Route::get('hello/show', 'HelloController@show');
 
+Route::get('person', 'PersonController@index');
+
+Route::get('person/find', 'PersonController@find');
+
+Route::post('person/find', 'PersonController@search');
