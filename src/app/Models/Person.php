@@ -9,6 +9,8 @@ use App\Scopes\ScopePerson;
 
 class Person extends Model
 {
+    use HasFactory;
+
     protected $guarded = array('id');
 
     public static $rules = array(
